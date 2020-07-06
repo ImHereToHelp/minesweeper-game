@@ -3,6 +3,7 @@ public class GameState{
     int rows;
     int columns;
     int mines;
+    Board board;
 
     public GameState(int rows, int columns, int mines){
         this.rows = rows;
